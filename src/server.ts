@@ -31,6 +31,6 @@ app.post('/users', (request, response) => {
       email: 'richardgregorio@gmail.com'
    };
    return response.json(user);
-});
+}); 
 
 app.listen(3333);
